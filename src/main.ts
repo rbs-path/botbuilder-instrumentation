@@ -101,7 +101,7 @@ export class BotFrameworkInstrumentation {
   private initSentimentData() {
     this.sentiments = {
       minWords: 3,
-      url: 'https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment',
+      url: 'https://uksouth.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment',
       id: 'bot-analytics',
       key: null
     };
